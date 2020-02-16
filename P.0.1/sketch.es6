@@ -1,7 +1,9 @@
-function setup() {
+const setup = () => {
 	createCanvas(windowWidth, windowHeight);
+	noFill();
 }
 
-function draw() {
-
+const draw = () => {
+	background(255,255,255);
+	ellipse(mouseX, mouseY, 40, 40);
 }
