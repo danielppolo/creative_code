@@ -1,6 +1,7 @@
 {
   "name": "generative-design",
   "projects": [
-    "P.0.0"
+    "P.0.0",
+    "P.0.1"
   ]
 }

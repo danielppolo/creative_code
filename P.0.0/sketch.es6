@@ -1,9 +1,9 @@
 const setup = () => {
 	createCanvas(windowWidth, windowHeight);
-	console.log('Hello');
-	background(51);
+	noFill();
 }
 
 const draw = () => {
-
+	background(255,255,255);
+	ellipse(mouseX, mouseY, 40, 40);
 }

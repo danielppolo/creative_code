@@ -1,9 +1,11 @@
-'use strict';
+"use strict";
 
 var setup = function setup() {
 	createCanvas(windowWidth, windowHeight);
-	console.log('Hello');
-	background(51);
+	noFill();
 };
 
-var draw = function draw() {};
+var draw = function draw() {
+	background(255, 255, 255);
+	ellipse(mouseX, mouseY, 40, 40);
+};
